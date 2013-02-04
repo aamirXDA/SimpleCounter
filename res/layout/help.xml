@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="99" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="Hey!
+
+This is my first app which I made to learn Java and Android App Development. It's a simple, basic and stupid app, made only for ''educational purposes'' only. The Menu contents are explained as follows:
+        
+1. BasicCountTool: This tool does basic +/- 1 and resets back to 0
+
+2. PlayWithText: This tool, at the moment, accepts only 4 commands:
+        left
+        center
+        right
+        WTF
+The On/Off switch is to hide the command which is about to be typed
+   	(This feature has been disabled for the time being)
+
+3. Email: This tool, ah well, just follow the cues
+
+4. Camera: This tool allows you to click a picture with your phone&apos;s camera, displays a thumbnail and then allows you to set it as a wallpaper" />
+    </ScrollView>
+
+</LinearLayout>

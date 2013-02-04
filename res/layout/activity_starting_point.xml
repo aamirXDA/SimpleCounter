@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".StartingPoint" >
+
+     <TextView
+         android:id="@+id/tvDisplay"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:gravity="center"
+         android:text="@string/hello_world"
+         android:textSize="45sp" />
+
+     <Button
+         android:id="@+id/breset"
+         android:layout_width="150dp"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="26dp"
+         android:text="Reset to 0"
+         android:textSize="20sp" />
+
+     <Button
+         android:id="@+id/bAdd"
+         android:layout_width="250dp"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/bSub"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="26dp"
+         android:text="Add one"
+         android:textSize="20sp" />
+
+     <Button
+         android:id="@+id/bSub"
+         android:layout_width="250dp"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/breset"
+         android:layout_alignLeft="@+id/bAdd"
+         android:layout_marginBottom="26dp"
+         android:text="Subtract one"
+         android:textSize="20sp" />
+
+</RelativeLayout>
